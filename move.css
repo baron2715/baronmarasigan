@@ -1,0 +1,99 @@
+#box{
+    position: absolute;
+    height: 500px;
+    width: 500px;
+    border: 3px solid black;
+    left: 30% ;
+    top: 5%;
+    background-color: #ffb700;
+}
+#circle{
+    position: absolute;
+    height:420px;
+    width: 420px;
+    border:3px solid black;
+    border-radius: 100%;
+    left: 8%;
+    top: 8%;
+}
+h1{
+ position: absolute;
+ left: 30%;
+ font-size: 40px;
+}
+p{
+ position: absolute;
+ left: 48%;
+ top: 8%;
+ font-size: 40px;
+}
+
+.key{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.up{
+    position: absolute;
+    left: 38%;
+    bottom: 41%;
+    text-align: center;
+}
+
+.down{
+    position: absolute;
+    bottom: 16%;
+    left: 38%;
+    text-align: center;
+}
+.left{
+    position: absolute;
+    left: 13%;
+    bottom: 16%;
+    text-align: center;
+}
+
+.right{
+    position: absolute;
+    right: 13%;
+    bottom: 16%;
+    text-align: center;
+}
+
+.up:before{
+   content: "\21E1";
+   font-size: 80px;
+}
+
+.down:before{
+   content: "\21E3";
+   font-size: 80px;
+}
+
+.left:before{
+   content: "\21E0";
+   font-size: 80px;
+}
+
+.right:before{
+   content: "\21E2";
+   font-size: 80px;
+}
+
+#box div{
+ border:1px solid black;
+}
+
+#box > div{
+ border:2px solid #5909b7;
+}
+
+.up~div{
+ background-color: #ffb700;
+ }
+
+.up+div{
+ color: #5909b7;
+ }
